@@ -34,7 +34,9 @@ export default function RootLayout({
               <li className='m-5'>
                 <Link href={'/pages/order-product'}>Order Product</Link>
               </li>
-              <li className='m-5'>Old</li>
+              <li className='m-5'>
+                <Link href={'/photo-feed'}>Photo feed</Link>
+              </li>
               <li className='m-5'>Contact</li>
             </ul>
           </nav>
