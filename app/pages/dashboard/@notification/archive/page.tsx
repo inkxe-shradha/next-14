@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const ArchivedNotifications = ({ children }: { children: React.ReactNode }) => {
+const ArchivedNotifications = ({ children }: { children: any }) => {
     return (
         <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-5">
             <a href="#">

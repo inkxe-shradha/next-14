@@ -10,7 +10,7 @@ const PhotoFeed = () => {
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 {
-                    photosArray.map(({ id, img, name }) => <Link href={`/photo-feed/${id}`} key={id}>
+                    photosArray.map(({ id, img, name }) => <Link href={`photo-feed/${id}`} key={id}>
                         <Image alt={name} src={img} className='w-full object-cover aspect-square' width={250} height={250} />
                     </Link>)
                 }
